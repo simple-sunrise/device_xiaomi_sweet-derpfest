@@ -25,5 +25,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # inherit Modified Pixel launcher 
 $(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-PIXEL_LAUNCHER_VARIANT := fullmod2
+PIXEL_LAUNCHER_VARIANT := fullmod1
 ICONS_VARIANT := true
