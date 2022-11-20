@@ -22,8 +22,3 @@ PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# inherit Modified Pixel launcher 
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
-PIXEL_LAUNCHER_VARIANT := fullmod1
-ICONS_VARIANT := true
