@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_sweet.mk
+    $(LOCAL_DIR)/statix_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_sweet-user \
-    derp_sweet-userdebug \
-    derp_sweet-eng
+    statix_sweet-user \
+    statix_sweet-userdebug \
+    statix_sweet-eng
