@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common AwakenOS stuff.
-$(call inherit-product, vendor/derp/config/common.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := awaken_sweet
